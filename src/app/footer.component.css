@@ -1,0 +1,92 @@
+.myFooter{
+    background-color: rgb(7, 4, 36);
+    min-height: 320px;
+    padding-top: 80px;
+  }
+  .footerTop{
+      padding-bottom: 50px;
+  }
+  .footerHorizontal{
+      height: 1px;
+      background-color: #ffffff;
+  }
+  .footBlock h2{
+    font-size: 30px;
+    font-family: "Uni Neue Bold";
+    color: rgb(255, 255, 255); 
+  }
+  .footBlock h4{
+    font-size: 24px;
+    font-family: "Uni Neue";
+    color: rgb(255, 255, 255);
+    line-height: 0.633;
+    margin-top: 40px;
+    margin-bottom: 40px;  
+  }
+.footBlock p{
+    font-size: 18px;
+    font-family: "Uni Neue";
+    color: rgb(67, 185, 253);
+    line-height: 1.667; 
+}
+.footBlock h3{
+    font-size: 18px;
+    font-family: "Uni Neue Bold";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 2.667;     
+}
+.footTopLinks{
+    -webkit-padding-start: 0px;
+    -moz-padding-start: 0px;
+    -o-padding-start: 0px;
+}
+.footTopLinks li{
+    font-size: 14px;
+    font-family: "Uni Neue";
+    color: rgb(141, 152, 166);
+    line-height: 3.143;
+    list-style: none;
+}
+.footTopLinks li:hover{
+    color: rgb(220, 36, 143);
+    cursor: pointer;
+}
+.footerBtm{
+    padding-top: 20px;
+}
+.footerBtmLinksLeft{
+    -webkit-padding-start: 0px;
+    -moz-padding-start: 0px;
+    -o-padding-start: 0px;
+}
+.footerBtmLinksLeft li{
+    display: inline;
+    margin-right: 40px;
+    
+} 
+.footerBtmLinksLeft li a{
+    color:#ffffff;
+}
+.footerBtmLinksLeft li a:hover{
+    color: rgb(220, 36, 143);
+    cursor: pointer;
+}
+.footerBtmLinksRight{
+    max-width: 280px;
+    -webkit-padding-start: 0px;
+    -moz-padding-start: 0px;
+    -o-padding-start: 0px;
+}
+.footerBtmLinksRight li{
+    list-style: none;
+    display: inline;
+    margin-right: 15px;
+    font-size: 13px;
+    font-family: "Uni Neue";
+    color: rgb(255, 255, 255);
+}
+.footerBtmLinksRight li:hover{
+    color: rgb(220, 36, 143);
+    cursor: pointer; 
+}

@@ -1,1 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("myfonts.css");
+@import url("fade-down.css");
+@import url("webslidemenu.css");
+@import url("white-red.css");
+@import url("demo.css");
+.spacerBan{
+    min-height: 20px;
+}

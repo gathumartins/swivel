@@ -1,0 +1,319 @@
+.aboutHeader{
+    background-color: rgb(223, 225, 239);
+    height: 80px;
+    position: relative;
+  }
+  .breadcrumb{
+      margin-top: 15px;
+      background: transparent !important;
+      height: 20px;
+  }
+  .breadcrumb li a{
+    font-size: 14px;
+    font-family: "Uni Neue";
+    color: rgb(4, 20, 43); 
+  }
+  .breadcrumb li a:hover{
+    color: rgb(64, 77, 166);
+    text-decoration: none;
+  }
+  .breadcrumb .active{
+    color: rgb(64, 77, 166);
+  }
+  .specialSep{
+    font-size: 14px;
+    font-family: "Uni Neue";
+    color: rgb(221, 17, 136);
+    line-height: 2.143; 
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .pageLabel{
+    background-color: rgb(64, 77, 166);
+    width: 185px;
+    padding-top: 15px;
+    height: 60px;
+    padding-bottom: 15px;
+    font-size: 18px;
+    font-family: "Uni Neue Bold";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.667; 
+    text-align: center; 
+    position: absolute;
+    margin-top: 50px; 
+  }
+  .abtSectTwo{
+      padding-top: 110px;
+      padding-bottom: 110px;
+  }
+  .homeAboutHead{
+    margin-bottom: 60px;
+  }
+  .homeAboutHead h3{
+    font-size: 30px;
+    font-family: "Uni Neue Bold";
+    color: rgb(4, 20, 43);
+    text-transform: uppercase;
+    line-height: 2.133; 
+  }
+  .underLineAbt{
+    background-color: rgb(220, 36, 143);
+    width: 30px;
+    height: 2px; 
+    margin: auto;    
+  }
+  .homeAboutHead h6{
+    font-size: 16px;
+    font-family: "Uni Neue";
+    color: rgb(4, 20, 43);
+    line-height: 4.001;
+  }
+  .aboutTabs{
+    border-bottom: none !important;
+  }
+  .aboutTabs .nav-link{
+    background-color: rgb(211, 212, 222);
+    border-radius: 0px !important;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-family: "Uni Neue";
+    color: rgb(4, 20, 43);
+    line-height: 1.5;
+    text-align: left;
+    border-left: 2px solid rgb(211, 212, 222);
+  }
+  .aboutTabs .nav-link:hover{
+    background-color: rgb(64, 77, 166);
+    border-left: 2px solid rgb(221, 17, 136);
+    color: rgb(255, 255, 255); 
+  }
+  .aboutTabs .nav-link.active{
+    border: none;
+    background-color: rgb(64, 77, 166);
+    border-left: 2px solid rgb(221, 17, 136);
+    color: rgb(255, 255, 255);
+  }
+  .aboutSectTwoContHeaders{
+    margin-bottom: 20px;
+  }
+  .aboutSectTwoContHeaders h3{
+    font-size: 18px;
+    font-family: "Uni Neue Bold";
+    color: rgb(4, 20, 43);
+    line-height: 1.333;
+  }
+  .aboutSectTwoConts{
+    column-count: 2;
+    column-gap: 20px;
+  }
+  .aboutSectTwoConts p{
+    font-size: 14px;
+    font-family: "Uni Neue";
+    color: rgb(115, 115, 115);
+    line-height: 1.733;
+    text-align: left;
+  }
+  .abtAdvt{
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .abtAdvtInner{
+    min-height: 500px;
+    background: url('../../assets/img/abtadvtbg.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-block-end: 70px;
+  }
+  .abtAdvtCont{
+    width: 300px;
+    float: right;
+    min-height: 330px;
+  }
+  .abtAdvtCont h3{
+    font-size: 40px;
+    font-family: "Uni Neue Bold";
+    color: rgb(255, 255, 255);
+    line-height: 1.25;
+    text-align: left;
+}
+.abtGetBtn{
+  width: 150px;
+  margin-top: 30px;
+  border-width: 2px;
+  background: transparent;
+  border-color: rgb(220, 36, 143);
+  border-style: solid; 
+  border-radius: 0px; 
+  -moz-box-shadow:    4px 4px 0px 0px rgb(220, 36, 143);
+  -webkit-box-shadow: 4px 4px 0px 0px rgb(220, 36, 143);
+  box-shadow:         4px 4px 0px 0px rgb(220, 36, 143);
+  font-size: 14px;
+  font-family: "Uni Neue Bold";
+  color: rgb(220, 36, 143);
+  text-transform: uppercase;  
+}
+.abtBelowAdvtInner{
+    margin-bottom: 30px;
+}
+.abtBelowAdvtInnerOne{
+  background-color: rgb(64, 77, 166);
+  height: 360px;
+  padding:40px 20px;
+  color: rgb(255, 255, 255);
+}
+.abtBelowAdvtInnerOne h3{
+  font-size: 24px;
+  font-family: "Uni Neue Bold";
+  color: rgb(255, 255, 255);
+  margin-bottom: 30px;
+}
+.abtBelowAdvtInnerOne p{
+  font-size: 15px;
+  font-family: "Uni Neue Bold";
+  color: rgb(255, 255, 255);
+}
+.abtContBtn{
+  width: 150px;
+  margin-top: 40px;
+  border-width: 2px;
+  background: transparent;
+  border-color: rgb(255, 255, 255);
+  border-style: solid; 
+  border-radius: 0px; 
+  -moz-box-shadow:    4px 4px 0px 0px rgb(255, 255, 255);
+  -webkit-box-shadow: 4px 4px 0px 0px rgb(255, 255, 255);
+  box-shadow:         4px 4px 0px 0px rgb(255, 255, 255);
+  font-size: 14px;
+  font-family: "Uni Neue Bold";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;  
+}
+.abtBelowAdvtInnerTwo{
+  height: 360px;
+  padding:20px;
+}
+.abtBelowAdvtInnerTwo p{
+  font-size: 15px;
+  font-family: "Uni Neue Bold";
+  color: rgb(115, 115, 115);
+  line-height: 1.733; 
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.abtBelowAdvtInnerTwo h1{
+  font-size: 45px;
+  font-family: "Uni Neue Bold";
+  color: rgb(243, 34, 128);
+  line-height: 0.5;
+  font-style: italic;
+}
+.abtBelowAdvtInnerTwo h3{
+  font-size: 18px;
+  font-family: "Uni Neue Bold";
+  color: rgb(2, 22, 40);
+  text-transform: uppercase;
+  line-height: 1.5;
+}
+.abtBelowAdvtInnerTwo h5{
+  font-size: 15px;
+  font-family: "Uni Neue Bold";
+  color: rgb(243, 34, 128);
+  line-height: 1.6;
+}
+.abtBelowAdvtInnerThree{
+  height: 360px;
+  padding:40px 20px 0px;
+  border: 1px solid rgb(221, 17, 136);
+}
+.abtBelowAdvtInnerThree h3{
+  font-size: 24px;
+  font-family: "Uni Neue Bold";
+  color: rgb(4, 20, 43);
+  line-height: 1.25;
+}
+.abtBelowAdvtInnerThree p{
+  font-size: 15px;
+  font-family: "Uni Neue Bold";
+  color: rgb(115, 115, 115);
+  line-height: 1.733;
+  margin-top: 40px;
+}
+.abtBelowAdvtInnerThree img{
+  margin-top: 40px;
+}
+.aboutServSect{
+    background-color: rgb(234, 233, 238);
+    height: 200px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.abtServSectInn{
+  display: grid;
+  grid-template-columns: 80% auto;
+}
+.aboutServSect h3{
+    font-size: 36px;
+    font-family: "Uni Neue Bold";
+    color: rgb(64, 77, 166);
+    line-height: 0.667;
+}
+.abtServBtn{
+  width: 150px;
+  border-width: 2px;
+  background: transparent;
+  border-color: rgb(64, 77, 166);
+  border-style: solid; 
+  border-radius: 0px; 
+  -moz-box-shadow:    4px 4px 0px 0px rgb(64, 77, 166);
+  -webkit-box-shadow: 4px 4px 0px 0px rgb(64, 77, 166);
+  box-shadow:         4px 4px 0px 0px rgb(64, 77, 166);
+  font-size: 14px;
+  font-family: "Uni Neue Bold";
+  color: rgb(64, 77, 166);
+  text-transform: uppercase;
+  float: right;  
+  clear: both;
+}
+.aboutTeamSect{
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.aboutTeamMember{
+  margin-bottom: 30px;
+}
+.aboutTeamMember h3{
+  font-size: 18px;
+  font-family: "Uni Neue Bold";
+  color: rgb(4, 20, 43);
+  margin-top: 40px;
+}
+.aboutTeamMember h4{
+  font-size: 15px;
+  font-family: "Uni Neue Bold";
+  color: rgb(221, 17, 136);
+}
+.aboutTeamMember p{
+  width: 80%;
+  margin: 20px auto;
+  font-size: 15px;
+  font-family: "Uni Neue Bold";
+  color: rgb(115, 115, 115);
+  line-height: 1.733;
+}
+.abtTeamBtn{
+  width: 150px;
+  border-width: 2px;
+  background: transparent;
+  border-color: rgb(4, 20, 43);
+  border-style: solid; 
+  border-radius: 0px; 
+  -moz-box-shadow:    4px 4px 0px 0px rgb(4, 20, 43);
+  -webkit-box-shadow: 4px 4px 0px 0px rgb(4, 20, 43);
+  box-shadow:         4px 4px 0px 0px rgb(4, 20, 43);
+  font-size: 14px;
+  font-family: "Uni Neue Bold";
+  color: rgb(4, 20, 43);
+  text-transform: uppercase;
+}

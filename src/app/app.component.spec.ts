@@ -17,15 +17,15 @@ describe('AppComponent', () => {
     const app = fixture.debugElement.componentInstance;
     expect(app).toBeTruthy();
   }));
-  it(`should have as title 'swivel'`, async(() => {
+  it(`should have as title 'swiv'`, async(() => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('swivel');
+    expect(app.title).toEqual('swiv');
   }));
   it('should render title in a h1 tag', async(() => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('h1').textContent).toContain('Welcome to swivel!');
+    expect(compiled.querySelector('h1').textContent).toContain('Welcome to swiv!');
   }));
 });

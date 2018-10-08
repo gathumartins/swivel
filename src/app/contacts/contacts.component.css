@@ -1,0 +1,252 @@
+.contactHeader{
+    background-color: rgb(223, 225, 239);
+    height: 80px;
+    position: relative;
+  }
+  .breadcrumb{
+      margin-top: 15px;
+      background: transparent !important;
+      height: 20px;
+  }
+  .breadcrumb li a{
+    font-size: 14px;
+    font-family: "Uni Neue";
+    color: rgb(4, 20, 43); 
+  }
+  .breadcrumb li a:hover{
+    color: rgb(64, 77, 166);
+    text-decoration: none;
+  }
+  .breadcrumb .active{
+    color: rgb(64, 77, 166);
+  }
+  .specialSep{
+    font-size: 14px;
+    font-family: "Uni Neue";
+    color: rgb(221, 17, 136);
+    line-height: 2.143; 
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .pageLabel{
+    background-color: rgb(64, 77, 166);
+    width: 185px;
+    padding-top: 15px;
+    height: 60px;
+    padding-bottom: 15px;
+    font-size: 18px;
+    font-family: "Uni Neue Bold";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.667; 
+    text-align: center; 
+    position: absolute;
+    margin-top: 50px; 
+  }
+  .contactsSectOne{
+    padding-top: 110px;
+    padding-bottom: 80px;
+}
+.contTopSect{
+    margin-bottom: 20px;
+}
+.contSectOneInn{
+    min-height: 356px;  
+}
+.contSectOneInnOne h3{
+    font-size: 18px;
+    font-family: "Roboto Bold";
+    color: rgb(4, 20, 43);
+    margin-bottom: 40px;
+}
+.contSectOneInnOne p{
+    font-size: 15px;
+    font-family: "Uni Neue";
+    color: rgb(115, 115, 115);
+    line-height: 1.733;    
+}
+.contSectOneList{
+    -webkit-padding-start: 0px;
+    -moz-padding-start:0px;
+}
+.contSectOneList li{
+    list-style: none;
+    font-size: 15px;
+    font-family: "Uni Neue";
+    color: rgb(115, 115, 115);
+    margin-top: 25px;
+}
+.contSectOneList li i{
+    margin-right: 20px;
+}
+.contactsSocial{
+    margin-top: 40px;
+    -webkit-padding-start: 0px;
+    -moz-padding-start:0px;  
+}
+.contactsSocial li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;  
+}
+.contactsSocial>li>a{
+    color: #04142b;
+    max-width: 30px !important;
+    height: 30px;  
+    background-color: rgb(234, 233, 238);
+    text-align: center;
+    padding: 5px 10px;  
+}
+.contactsSocial>li>a:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(221, 17, 136);
+}
+.contSectOneInnTwo{
+    background: url('../../assets/img/office.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+.officeBtn{
+    background-color: rgb(64, 77, 166);
+    width: 60px;
+    height: 60px; 
+    border-radius: 0px;
+    color: rgb(255, 255, 255);
+    padding-top: 15px;
+    float: right;  
+}
+.contSectOneInnThree{
+    background-color: rgb(64, 77, 166);
+}
+.telBtn{
+    background-color: rgb(221, 17, 136);
+    width: 60px;
+    height: 60px; 
+    border-radius: 0px;
+    color: rgb(255, 255, 255);
+    padding-top: 15px;
+    float: right;  
+}
+.contSectOneInnThreeInn{
+    width: 80%;
+    margin: 20px auto;
+}
+.contSectOneInnThreeInn h3{
+    font-size: 24px;
+    font-family: "Uni Neue Bold";
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;  
+}
+.contSectOneInnThreeInn h4{
+    font-size: 14px;
+    font-family: "Uni Neue Bold";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;  
+}
+.contSectOneInnThreeInn h2{
+    font-size: 24px;
+    font-family: "Uni Neue Bold";
+    color: rgb(255, 255, 255);
+    line-height: 0.633; 
+    margin-top: 30px; 
+    margin-bottom: 20px; 
+}
+.contSectOneInnThreeInn p{
+    font-size: 14px;
+    font-family: "Uni Neue";
+    color: rgb(255, 255, 255);
+    line-height: 1.857;   
+}
+.contactsFormSect{
+    padding-bottom: 70px;
+}
+.formHolder{
+    margin-bottom: 40px;
+}
+.formHeader{
+    margin-bottom: 40px;
+}
+.formHeader h3{
+    font-size: 18px;
+    font-family: "Uni Neue Bold";
+    color: rgb(4, 20, 43);
+    line-height: 1.333;    
+}
+.contsTextFields{
+    margin-bottom: 20px;
+}
+.myContInputs{
+    background-color: rgb(239, 240, 244);
+    height: 50px;
+    border-color: rgb(239, 240, 244); 
+    border-radius: 0px; 
+}
+.myContInputs:focus{
+    box-shadow: none !important;
+    border-color:rgb(221, 17, 136);
+}
+.contsTextArea{
+    background-color: rgb(239, 240, 244);
+    border-color: rgb(239, 240, 244); 
+    border-radius: 0px;  
+}
+.contsTextArea:focus{
+    box-shadow: none !important;
+    border-color:rgb(221, 17, 136);
+}
+.submitBtn{
+    width: 150px;
+    border-width: 2px;
+    border-color: rgb(4, 20, 43);
+    border-style: solid; 
+    border-radius: 0px; 
+    -moz-box-shadow:    4px 4px 0px 0px rgb(4, 20, 43);
+    -webkit-box-shadow: 4px 4px 0px 0px rgb(4, 20, 43);
+    box-shadow:         4px 4px 0px 0px rgb(4, 20, 43);
+    font-size: 14px;
+    font-family: "Uni Neue Bold";
+    color: rgb(4, 20, 43);
+    text-transform: uppercase;  
+}
+.contactsPeopleInn{
+    -webkit-padding-start: 0px;
+    -moz-padding-start:0px;  
+}
+.contactPerson{
+    list-style: none;
+}
+.contactsPeopleHead{
+    margin-bottom: 40px;
+}
+.contactsPeopleHead h3{
+    font-size: 18px;
+    font-family: "Uni Neue Bold";
+    color: rgb(4, 20, 43);
+    line-height: 1.333;   
+}
+.contactPerson{
+    min-height: 110px;
+    margin-bottom: 40px;
+    display: grid;
+    grid-template-columns: 20% auto;
+    grid-column-gap: 10px;
+}
+.contPersonDetails h4{
+    font-size: 15px;
+    font-family: "Uni Neue Bold";
+    color: rgb(4, 20, 43);
+    text-transform: uppercase;    
+}
+.contPersonDetails p{
+    font-size: 13px;
+    font-family: "Uni Neue Bold";
+    color: rgb(115, 115, 115);
+    margin-bottom: 2px !important;
+}
+.contPersonDetails i{
+    margin-right: 10px;
+}
+.contactsMap{
+    background-color: rgb(146, 146, 146);
+    min-height: 600px;   
+}

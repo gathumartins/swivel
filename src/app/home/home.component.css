@@ -1,0 +1,353 @@
+.homeBanner{
+    background-color: rgb(200, 200, 200);
+    min-height: 681px;
+    background-image: url('../../assets/img/bannerbg.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 16%;  
+}
+.carousel-item h1{
+    border-width: 8px;
+    border-color: rgb(64, 77, 166);
+    border-style: solid;
+    margin: 30px auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 50%;
+    min-height: 120px; 
+    font-size: 40px;
+    font-family: "Uni Neue Bold";
+    color: rgb(255, 255, 255);  
+}
+.btnBanner{
+    border-radius: 3px;
+    background-color: rgb(221, 17, 136);
+    width: 255px;
+    height: 60px; 
+    padding-top: 15px; 
+    font-size: 20px;
+    font-family: "Uni Neue Bold";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;     
+}
+.carousel-indicators{
+    top:300px;
+}
+.carousel-indicators li{
+        border-width: 1px;
+        border-color: rgb(200, 200, 200);
+        border-style: solid;
+        width: 12px;
+        height: 12px;
+        background: transparent !important;
+}
+.carousel-indicators .active{
+    border-color: rgb(221, 17, 136);
+}
+.homeBanCards{
+    margin-top: -80px;
+    position: relative;
+    padding-bottom: 30px;
+}
+.cardFlips{
+  margin-bottom: 30px;
+}
+.card-container {
+    cursor: pointer;
+    height: 265px;
+    perspective: 600;
+    position: relative;
+    width: 100%;
+  }
+  .cardCustom {
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: all 1s ease-in-out;
+    width: 100%;
+  }
+  .sideOne{
+      background: url('../../assets/img/cardone.jpg');
+      background-size: cover;
+      background-position: center;
+  }
+  .sideTwo{
+    background: url('../../assets/img/cardtwo.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.sideThree{
+    background: url('../../assets/img/cardthree.jpg');
+    background-size: cover;
+    background-position: center;
+}
+  .cardCustom:hover {
+    transform: rotateY(180deg);
+  }
+  .flipTitle{
+    margin-top: 215px;
+    height: 50px;
+    padding: 15px 15px 10px;
+    width: 100%;
+    background-color: rgba(64, 77, 166, 0.902);
+  }
+  .flipTitle h3{
+    font-size: 20px;
+    font-family: "Uni Neue Bold";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;  
+  }
+  .cardCustom .side {
+    backface-visibility: hidden;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+  }
+  .cardCustom .back {
+    background: rgb(221, 17, 136);
+    color: #ffffff;
+    padding: 25px;
+    transform: rotateY(180deg);
+  }
+  .cardCustom .back h3{
+    font-size: 20px;
+    font-family: "Uni Neue Bold";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+  }
+  .cardCustom .back p{
+    font-size: 14px;
+    font-family: "Uni Neue";
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    margin-top: 20px;
+  }
+  .readMoreBtn{
+    font-size: 20px;
+    font-family: "Roboto Bold";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 3.2; 
+    padding-left: 0px; 
+  }
+  .homeAbout{
+      padding-top: 50px;
+      padding-bottom: 20px;
+  }
+  .homeAboutHead h3{
+    font-size: 30px;
+    font-family: "Uni Neue Bold";
+    color: rgb(4, 20, 43);
+    text-transform: uppercase;
+    line-height: 2.133; 
+  }
+  .underLineAbt{
+    background-color: rgb(220, 36, 143);
+    width: 30px;
+    height: 2px; 
+    margin: auto;    
+  }
+  .homeAboutHead h6{
+    font-size: 16px;
+    font-family: "Uni Neue";
+    color: rgb(4, 20, 43);
+    line-height: 4.001;
+  }
+  .abtCont{
+      min-height: 170px;
+      display: grid;
+      grid-template-columns: 10% auto;
+      grid-column-gap: 25px;
+      margin-bottom: 20px;
+  }
+  .abtContInn h3{
+    font-size: 18px;
+    font-family: "Uni Neue Bold";
+    color: rgb(4, 20, 43);
+    line-height: 1.556;   
+  }
+  .abtContInn p{
+    font-size: 15px;
+    font-family: "Uni Neue";
+    color: rgb(115, 115, 115);
+    line-height: 1.733;  
+  }
+  .homeVideo{
+    min-height: 650px;
+    background: url('../../assets//img/videobg.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 200px;
+}
+.myVids{
+  max-width: 100% !important;
+  border-radius: 0px !important;
+  margin: 0px !important;
+}
+.videoHolder{
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+.videoHader{
+  background: rgb(221, 17, 136);
+  border-bottom: transparent !important;
+  border-radius: 0px !important;
+}
+.videoClose{
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  box-shadow: none !important;
+  float: right;
+}
+.videoClose:hover{
+  color: rgb(64, 77, 166);
+}
+#contentVideo{ 
+  background: transparent;
+  color: white;
+  width: 50%;
+  margin: auto;
+}
+#contentVideo h3{
+    font-size: 50px;
+    font-family: "Uni Neue Bold";
+    color: rgb(255, 255, 255);
+}
+#contentVideo h5{
+  font-size: 30px;
+  font-family: "Uni Neue Bold";
+  color: rgb(255, 255, 255);
+} 
+.vidBtn{
+  margin-top: 30px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #ffffff;
+  text-align: center;
+  color: rgb(220, 36, 143);
+  font-size: 40px;
+}
+.myVidBtn{
+  
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #ffffff;
+  text-align: center;
+  color: rgb(220, 36, 143);
+  font-size: 20px;
+}
+.homeTest{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.mycomments{
+  display: grid;
+  grid-template-columns: 25% auto;
+  grid-column-gap: 20px;
+  min-height: 300px;
+  width: 100% !important;
+  margin-top: 30px;
+  padding: 30px;
+}
+.mycomments img{
+  margin-top: 50px;
+}
+.testCont span{
+  font-size: 48px;
+  font-family: "Uni Neue";
+  color: rgb(221, 17, 136);
+  line-height: 0.5;
+  font-style: italic;
+}
+.testCont p{
+  font-size: 15px;
+  font-family: "Uni Neue";
+  color: rgb(115, 115, 115);
+  line-height: 1.733;
+  text-align: left; 
+}
+.testCont h3{
+  font-size: 18px;
+  font-family: "Uni Neue Bold";
+  color: rgb(4, 20, 43);
+  text-transform: uppercase;
+  line-height: 3.556;
+  text-align: left;
+}
+.testCont h4{
+  font-size: 15px;
+  font-family: "Uni Neue";
+  color: rgb(115, 115, 115);
+  line-height: 1.733;
+  text-align: left;
+}
+.testDesign{
+  color: rgb(221, 17, 136) !important;
+}
+.homeStats{
+  padding-top:10%;
+  padding-bottom: 30px;
+  min-height: 700px;
+  background: url('../../assets/img/homestatsbg.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.homeStatsHead h3{
+  font-size: 48px;
+  font-family: "Uni Neue";
+  color: rgb(19, 31, 112);
+  text-align: center;
+}
+.homeStatsHead h4{
+    font-size: 24px;
+    font-family: "Uni Neue";
+    color: rgb(19, 31, 112);
+    text-align: center;
+    margin-top: 20px;
+}
+.statsCont{
+  margin-top: 50px;
+}
+.statsOuter{
+  padding: 15px;
+}
+.statsInner{
+  width: 90%;
+  min-height: 260px;
+  border: 1px solid transparent;
+  color: rgb(7, 4, 36);
+  text-align: center;
+  padding-top: 45px;
+  margin: auto;
+}
+.statsInner:hover{
+  border:1px solid rgb(221, 17, 136);
+  color: rgb(221, 17, 136);
+}
+.statsInner h1{
+  font-size: 62px;
+  font-family: "Roboto Medium";
+  line-height: 1;
+}
+.mysuperCase{
+  margin-right: 40px;
+  text-align: right;
+  font-size: 38px;
+}
+.statsInner h4{
+  font-size: 18px;
+  font-family: "Roboto Medium";
+  line-height: 4;
+}
+.homePartners{
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+#icomparePartners{
+  width: 96%;
+  margin: 40px auto;
+}

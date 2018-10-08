@@ -1,0 +1,229 @@
+.eneterpriseHeader{
+    background-color: rgb(223, 225, 239);
+    height: 80px;
+    position: relative;
+  }
+  .breadcrumb{
+      margin-top: 15px;
+      background: transparent !important;
+      height: 20px;
+  }
+  .breadcrumb li a{
+    font-size: 14px;
+    font-family: "Uni Neue";
+    color: rgb(4, 20, 43); 
+  }
+  .breadcrumb li a:hover{
+    color: rgb(64, 77, 166);
+    text-decoration: none;
+  }
+  .breadcrumb .active{
+    color: rgb(64, 77, 166);
+  }
+  .specialSep{
+    font-size: 14px;
+    font-family: "Uni Neue";
+    color: rgb(221, 17, 136);
+    line-height: 2.143; 
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .pageLabel{
+    background-color: rgb(64, 77, 166);
+    padding: 15px;
+    height: 60px;
+    font-size: 18px;
+    font-family: "Uni Neue Bold";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.667; 
+    text-align: center; 
+    position: absolute;
+    margin-top: 50px; 
+  }
+  .enterpriseSecTwo{
+      padding-top: 80px;
+      padding-bottom: 60px;
+  }
+  .enterSecTwoHead{
+    margin-bottom: 60px;
+  }
+  .enterSecTwoHead h3{
+    font-size: 30px;
+    font-family: "Uni Neue Bold";
+    color: rgb(4, 20, 43);
+    text-transform: uppercase;
+    line-height: 2.133; 
+  }
+  .underLineAbt{
+    background-color: rgb(220, 36, 143);
+    width: 30px;
+    height: 2px; 
+    margin: auto;    
+  }
+  .enterSecTwoHead h6{
+    font-size: 16px;
+    font-family: "Uni Neue";
+    color: rgb(4, 20, 43);
+    line-height: 4.001;
+  }
+  .enterTabs{
+    border-bottom: none !important;
+  }
+  .enterTabs .nav-link{
+    background-color: rgb(211, 212, 222);
+    border-radius: 0px !important;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-family: "Uni Neue";
+    color: rgb(4, 20, 43);
+    line-height: 1.5;
+    text-align: left;
+    border-left: 2px solid rgb(211, 212, 222);
+  }
+  .enterTabs .nav-link:hover{
+    background-color: rgb(64, 77, 166);
+    border-left: 2px solid rgb(221, 17, 136);
+    color: rgb(255, 255, 255); 
+  }
+  .enterTabs .nav-link.active{
+    border: none;
+    background-color: rgb(64, 77, 166);
+    border-left: 2px solid rgb(221, 17, 136);
+    color: rgb(255, 255, 255);
+  }
+  .enterSectTwoContHeaders{
+    margin-bottom: 20px;
+  }
+  .enterSectTwoContHeaders h3{
+    font-size: 18px;
+    font-family: "Uni Neue Bold";
+    color: rgb(4, 20, 43);
+    line-height: 1.333;
+  }
+  .enterSectTwoConts{
+    column-count: 2;
+    column-gap: 20px;
+  }
+  .enterSectTwoConts p{
+    font-size: 14px;
+    font-family: "Uni Neue";
+    color: rgb(115, 115, 115);
+    line-height: 1.733;
+    text-align: left;
+  }
+  .enterActionBtn{
+    border-radius: 3px;
+    background-color: rgb(221, 17, 136);
+    width: 290px;
+    height: 44px;
+    padding-top: 10px; 
+    color: rgb(255, 255, 255); 
+  }
+  .enterAboutSec{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: rgba(236, 244, 244, 0.329);
+    min-height: 600px;
+  }
+.abtCont{
+    min-height: 170px;
+    display: grid;
+    grid-template-columns: 10% auto;
+    grid-column-gap: 25px;
+    margin-bottom: 20px;
+}
+.abtContInn h3{
+  font-size: 18px;
+  font-family: "Uni Neue Bold";
+  color: rgb(4, 20, 43);
+  line-height: 1.556;   
+}
+.abtContInn p{
+  font-size: 15px;
+  font-family: "Uni Neue";
+  color: rgb(115, 115, 115);
+  line-height: 1.733;  
+}
+.enterLastSect{
+    min-height: 768px;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+.myFaqs{
+    max-width: 750px;
+    margin: auto;
+}
+.myfaqHeader{
+    background-color: rgb(64, 77, 166);
+    border-color: rgb(64, 77, 166);
+    height: 68px;
+    padding-top: 20px;
+    border-radius: 0px;  
+    font-size: 18px;
+    font-family: "Uni Neue Bold";
+    color: rgb(255, 255, 255);
+    line-height: 1.333;  
+}
+.card a{
+    text-decoration: none;
+}
+.enterBody{
+    border: 1px solid rgb(221, 17, 136);
+    border-top: none !important;
+}
+.enterBody p{
+    font-size: 15px;
+    font-family: "Uni Neue";
+    color: rgb(115, 115, 115);
+    line-height: 1.733;      
+}
+.slidesEnter{
+    margin-top: 100px;
+}
+.myEnterSlides{
+    padding: 20px;  
+}
+.myEnterSlidesInn{
+    padding: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(221, 17, 136);
+    height: 255px;     
+}
+.myEnterSlidesInn h3{
+    font-size: 20px;
+    font-family: "Roboto Bold";
+    color: rgb(7, 4, 36);
+    line-height: 3.2;   
+}
+.myEnterSlidesInn p{
+    font-size: 15px;
+    font-family: "Myriad Pro";
+    color: rgb(174, 174, 174);
+    line-height: 1.733;
+}
+.myEnterSlideBtn{
+    font-size: 13px;
+    font-family: "Roboto Bold";
+    color: rgb(221, 17, 136);
+    text-transform: uppercase;
+    line-height: 1.846; 
+}
+.myEnterSlidesInn:hover{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(174, 174, 174);
+    background-color: rgb(64, 77, 166);
+    height: 255px;  
+    color: rgb(255, 255, 255) !important;   
+}
+.myEnterSlidesInn:hover h3{
+    color: rgb(255, 255, 255);
+}
+.myEnterSlidesInn:hover p{
+    color: rgb(255, 255, 255);
+}
+.myEnterSlidesInn:hover .myEnterSlideBtn{
+    color: rgb(255, 255, 255);
+}

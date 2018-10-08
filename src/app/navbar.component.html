@@ -1,0 +1,39 @@
+  <!-- Mobile Header -->
+  <div class="wsmobileheader clearfix ">
+    <a id="wsnavtoggle" class="wsanimated-arrow"><span></span></a>
+    <span class="smllogo"><img src="../assets/img/logo.png" width="80" alt=""/></span>
+    <a href="tel:123456789" class="callusbtn"><i class="fa fa-phone" aria-hidden="true"></i></a>
+  </div>
+  <!-- Mobile Header -->
+
+
+  <div class="headtoppart clearfix">
+    <div class="headerwp container clearfix">
+      <div class="headertopleft">
+        <div class="address clearfix"><span> For support : <i class="far fa-envelope"></i> Support@swivel.co.ke</span> <a href=""><i class="fa fa-phone" aria-hidden="true"></i> +254 722 505 050</a></div>
+      </div>
+    </div>
+  </div>
+  <div class="wsmainfull clearfix">
+    <div class="wsmainwp clearfix">
+	<div class="spacer" style="min-height: 20px;"></div>
+      <div class="desktoplogo"><a [routerLink]="['/home']" routerLinkActive="active"><img src="../assets/img/logo.png" alt=""></a></div>
+      <!--Main Menu HTML Code-->
+      <nav class="wsmenu clearfix">
+        <ul class="wsmenu-list nav-justified">
+          <li aria-haspopup="true"><a routerLinkActive="active">Products <span class="wsarrow"></span></a>
+            <ul class="sub-menu">
+              <li aria-haspopup="true"><a [routerLink]="['/enterprise']" routerLinkActive="active"><i class="fa fa-angle-right"></i>KentaPay&reg; Enterprise</a></li>
+              <li aria-haspopup="true"><a [routerLink]="['/personal']" routerLinkActive="active"><i class="fa fa-angle-right"></i>KentaPay&reg;  Personal</a></li>
+            </ul>
+		  </li>
+		  <li aria-haspopup="true"><a>Make payments </a></li>
+      <li aria-haspopup="true"><a [routerLink]="['/about']" routerLinkActive="active">About Swivel </a></li>
+      <li aria-haspopup="true"><a [routerLink]="['/contacts']" routerLinkActive="active">Contact Us </a></li>
+      <li aria-haspopup="true" class="loginLink float-right"><a [routerLink]="['/login']" routerLinkActive="active">Login</a></li>
+        </ul>
+      </nav>
+      <!--Menu HTML Code-->
+    </div>
+  </div>
+

@@ -1,0 +1,98 @@
+/* Desktop Main Menu Color */
+
+.wsmainfull {
+  background-color: #fff;
+}
+
+.wsmenu>.wsmenu-list {
+  background-color: #fff;
+}
+
+/* Mobile Header */
+
+.wsmobileheader {
+  background-color: #fff;
+}
+
+.wsmenu>.wsmenu-list>li>a {
+  font-size: 14px;
+  font-family: "Uni Neue Bold";
+  color: rgb(17, 58, 94);
+  text-transform: uppercase; 
+}
+
+.wsmenu>.wsmenu-list>li>a .wsarrow:after {
+  border-top-color: #181c3d;
+}
+
+.wsmenu>.wsmenu-list>li>a:hover .wsarrow:after {
+  border-top-color: #fff;
+}
+
+.wsmenu>.wsmenu-list>li>a.active .wsarrow:after {
+  border-top-color: #fff;
+}
+
+.wsmenu>.wsmenu-list>li:hover>a .wsarrow:after {
+  border-top-color: #fff;
+}
+
+.wsmenu>.wsmenu-list>li>a>.fa {
+  color: #113a5e;
+}
+
+.wsmenu>.wsmenu-list>li>a.active .fa {
+  color: #dd1188;
+}
+
+.wsmenu>.wsmenu-list>li:hover>a>.fa {
+  color: #dd1188;
+}
+
+.wsmenu>.wsmenu-list>li>a:hover .fa {
+  color: #dd1188;
+}
+.wsmenu>.wsmenu-list>li>a.active {
+  background-color: #181c3d;
+  color: #dd1188;
+}
+
+.wsmenu>.wsmenu-list>li:hover>a {
+  background-color: #181c3d;
+  color: #dd1188;
+}
+
+.wsmenu>.wsmenu-list>li>ul.sub-menu>li:hover>a {
+  background-color: #181c3d;
+  color: #dd1188;
+}
+
+.wsmenu>.wsmenu-list>li>ul.sub-menu>li>ul.sub-menu>li:hover>a {
+  background-color: #181c3d;
+  color: #dd1188;
+}
+
+.wsmenu>.wsmenu-list>li>ul.sub-menu>li>ul.sub-menu>li>ul.sub-menu>li:hover a {
+  background-color: #181c3d;
+  color: #dd1188;
+}
+.loginLink>a{
+  margin-top: 10px;
+  border-radius: 3px;
+  background-color: rgb(221, 17, 136) !important;
+  width: 153px;
+  height: 44px; 
+  font-size: 14px;
+  padding-top: 10px !important;
+  padding-bottom: 15px !important;
+  text-align: center !important;
+  font-family: "Uni Neue Bold";
+  color: rgb(255, 255, 255) !important;
+  text-transform: uppercase;
+  line-height:unset !important;
+}
+.loginLink>a:hover{
+  background-color: #181c3d !important;
+  height: 44px;
+  line-height:unset !important; 
+}
