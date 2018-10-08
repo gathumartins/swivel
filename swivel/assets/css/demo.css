@@ -1,0 +1,131 @@
+.header {
+  width: 100%;
+  display: block;
+  min-height: 214px;
+  padding-top: 0px;
+}
+
+.headerwp {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+.posrlt {
+  position: relative;
+}
+
+.headtoppart {
+  display: block;
+  width: 100%;
+  background-color: #efefef;
+  height: 39px;
+  margin: 0px auto;
+  padding: 0px 0px;
+  min-width: 320px;
+}
+
+.headertopleft {
+  width: 100%;
+}
+
+.address {
+  padding: 10px 0px 0px 0px;
+  font-size: 12px;
+  color: #b6b6b6;
+}
+
+.address a {
+  color: #747373;
+}
+
+.address span {
+  margin-right: 9px;
+  color: #747373;
+}
+
+.address .fa {
+  margin-right: 6px;
+  margin-left: 6px;
+  color: #5f5f5f;
+}
+
+.norlt {
+  position: static;
+}
+
+.menuwrapper {
+  position: relative;
+}
+
+.show-grid {
+  background-color: #fff;
+}
+
+.btn-border {
+  border: 2px solid;
+  border-radius: 40px;
+  display: inline-block;
+  font-size: 13px;
+  text-transform: uppercase;
+  -moz-user-select: none;
+  background-image: none;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  color: #fff;
+  padding: 15px 40px;
+}
+
+.btn-border:hover {
+  color: #fff;
+  text-decoration: none;
+  opacity: 0.9;
+}
+
+.btn-border:focus {
+  color: #fff;
+  text-decoration: none;
+  opacity: 0.9;
+}
+
+.mobiletext02 {
+  display: none;
+}
+
+@media only screen and (min-width: 230px) and (max-width:991px) {
+  .headtoppart {
+    display: none;
+  }
+
+  .swichermainbx {
+    width: 96%;
+    margin: 25% 2%;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px 25px;
+    border-radius: 14px;
+  }
+
+  .swichermainleft {
+    width: 98%;
+    margin: 1% 1%;
+  }
+
+  .swichermainright {
+    width: 98%;
+    margin: 1% 1%;
+  }
+
+  .wscolorcode {
+    width: 12.5%;
+  }
+
+  .swichertxt {
+    display: none;
+  }
+
+  .swichertxt02 span {
+    display: none;
+  }
+}
